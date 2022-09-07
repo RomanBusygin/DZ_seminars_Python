@@ -1,4 +1,4 @@
-number = (input('Введите число: '))
+number = input('Введите число: ')
 sum = 0
 
 for i in range(len(number)):
