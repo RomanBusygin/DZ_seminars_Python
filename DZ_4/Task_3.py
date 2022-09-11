@@ -7,4 +7,4 @@ def unic_elements(full_list: list) -> list:
 
 
 numbers = input('Введите числа через пробел: ').split(' ')
-print(unic_elements(numbers))
+print(f'Неповторяющиеся элементы из Вашего списка: {unic_elements(numbers)}')
