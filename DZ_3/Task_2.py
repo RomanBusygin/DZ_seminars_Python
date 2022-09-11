@@ -1,13 +1,14 @@
+import math
+
+
 def couple_multiply(multiply_list: list):
     multiply = 1
     if len(multiply_list) % 2 == 0:
-        count = int(len(multiply_list) / 2)
-        for i in range(count):
+        for i in range(math.ceil(len(multiply_list) / 2)):
             multiply = int(multiply_list[i]) * int(multiply_list[-i - 1])
             print(multiply, end= ' ')
     else:
-        count = int(len(multiply_list) / 2) + 1
-        for i in range(count):
+        for i in range(math.ceil(len(multiply_list) / 2)):
             multiply = int(multiply_list[i]) * int(multiply_list[-i - 1])
             print(multiply, end= ' ')
 
