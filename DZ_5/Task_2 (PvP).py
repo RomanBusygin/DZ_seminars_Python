@@ -26,4 +26,4 @@ while candies > 0:
                 turn = 1
             else: print('Куда столько берёшь?!')
 
-print(f'Победил Игрок {last_move}!')
+print(f'Победил Игрок {last_move}!')1
