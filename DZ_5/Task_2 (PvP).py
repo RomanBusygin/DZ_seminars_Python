@@ -19,7 +19,7 @@ while candies > 0:
     if turn == 2:
         if candies != 0:
             player_2 = int(input('Ход Игрока 2: '))
-            if player_1 <= max_move:
+            if player_2 <= max_move:
                 print(f'Конфет осталось: {candies - player_2}')
                 candies -= player_2
                 last_move = 2
