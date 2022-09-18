@@ -1,8 +1,8 @@
 from random import randint
 
 
-candies = 15
-max_move = 4
+candies = 2021
+max_move = 28
 turn = randint(1, 2)
 last_move = turn
 
