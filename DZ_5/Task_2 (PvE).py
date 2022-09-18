@@ -26,6 +26,6 @@ while candies > 0:
             turn = 1
 
 if last_move == 1:
-    print('Победил Игрок 1!')
+    print('Победил Игрок!')
 else: 
     print('Победил Бот!')
