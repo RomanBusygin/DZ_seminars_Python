@@ -5,7 +5,6 @@ compressed_data = ''
 count = 1
 prev_char = ''
 
-print(input_data)
 for i in range(1, len(input_data)):
     prev_char = input_data[i - 1]
     if input_data[i] == prev_char:
